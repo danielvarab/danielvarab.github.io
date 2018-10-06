@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Custom font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif !important;
+            padding: 50px 0;
+        }
+
+        a {
+            text-decoration: none !important;
+            transition: all 0.2s ease;
+        }
+
+        header {
+            margin-bottom: 50px;
+        }
+
+        header .subtitle {
+            color: #656565;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 0 20px;
+        }
+
+        .button {
+            display: inline-block;
+            font-weight: bold;
+            color: #a5a5a5;
+            padding: 0 20px;
+            border-radius: 5px;
+            height: 36px;
+            line-height: 36px;
+            border: 1px solid #e2e2e2;
+            font-size: 13px;
+        }
+
+        .button:hover {
+            color: black;
+        }
+
+        /* job divs */
+        .job {
+            margin-bottom: 20px;
+        }
+
+        .job .title {
+            margin-bottom: 5px;
+            line-height: 1;
+        }
+
+        .job .subtitle {
+            color: gray;
+            margin-bottom: 0px;
+        }
+
+        .section {
+            margin-bottom: 50px;
+        }
+
+        .loading:after {
+            content: ' .';
+            animation: dots 1s steps(5, end) infinite;}
+
+            @keyframes dots {
+            0%, 20% {
+                color: rgba(0,0,0,0);
+                text-shadow:
+                .25em 0 0 rgba(0,0,0,0),
+                .5em 0 0 rgba(0,0,0,0);
+            }
+            40% {
+                color: black;
+                text-shadow:
+                .25em 0 0 rgba(0,0,0,0),
+                .5em 0 0 rgba(0,0,0,0);
+            }
+            60% {
+                text-shadow:
+                .25em 0 0 black
+                .5em 0 0 white
+                }
+            80%, 100% {
+                text-shadow:
+                .25em 0 0 black,
+                .5em 0 0 black;
+                }
+            }
+
+    </style>
+    
+    <title>Daniel Varab</title>
+  </head>
+
+  <body>
+    <div class="container">
+        <header>
+            <h1>Daniel Varab</h1>
+            <h5 class="subtitle">NLP, ML, and other hyped abbreviations</h2>
+        </header>
+
+        <!-- <div class="section">
+            <h4>About Me</h4>
+            <hr/>
+            <p></p>
+        </div> -->
+        
+        <div class="section">
+            <h4>Current & Recent positions</h4>
+            <hr/>
+            <div class="job">
+                <h5 class="title">Karnov Group</h5>
+                <h6 class="subtitle">Senior Machine Learnist</h6>
+            </div>
+
+            <div class="job">
+                <h5 class="title">IT University Of Copenhagen</h5>
+                <h6 class="subtitle">Research Assistent, Teaching Assistant</h6>
+            </div>
+
+            <div class="job">
+                <h5 class="title">International Association of Prosecutors</h5>
+                <h6 class="subtitle">Fullstack Developer</h6>
+            </div>
+        </div>
+
+        <div class="section">
+            <h4>Publications</h4>
+            <hr/>
+            <!-- <div class="job">
+                <h5 class="title">UniParse: A universal graph-based parsing toolkit</h5>
+                <h6 class="subtitle">Daniel Varab, Nathalie Schluter. CONLL 2018</h6>
+            </div> -->
+
+            <div class="job">
+                <h5 class="title">When data permutations are pathological: the case of neural natural language inference
+                <h6 class="subtitle">Nathalie Schluter, Daniel Varab. EMNLP 2018</h6>
+            </div>
+
+            <div class="job">
+                <p class="loading"></p>
+            </div>
+        </div>
+
+        <!-- <div class="section">
+            <h4>Contact</h4>
+            <hr/>
+            <a class="button" href="mailto:danielvarab@gmail.com">mail</a>
+            <a class="button" href="#">linkedin</a>
+            <a class="button" href="#">twitter</a>
+        </div> -->
+        
+    </div>
+  </body>
+</html>

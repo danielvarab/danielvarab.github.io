@@ -1,0 +1,91 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+    padding: 50px 0;
+}
+
+a {
+    text-decoration: none !important;
+    /* transition: all 0.2s ease;*/
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+header .subtitle {
+    color: #656565;
+}
+
+.container {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+.button {
+    display: inline-block;
+    font-weight: bold;
+    color: #a5a5a5;
+    padding: 0 20px;
+    border-radius: 5px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #e2e2e2;
+    font-size: 13px;
+}
+
+.button:hover {
+    color: black;
+}
+
+/* job divs */
+.job {
+    margin-bottom: 20px;
+}
+
+.job .title {
+    margin-bottom: 5px;
+    line-height: 1;
+}
+
+.job .title span {
+    font-size: small;
+    color:gray;
+}
+
+.job .subtitle {
+    color: gray;
+    margin-bottom: 0px;
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.loading:after {
+    content: ' .';
+    animation: dots 1s steps(5, end) infinite;}
+
+    @keyframes dots {
+    0%, 20% {
+        color: rgba(0,0,0,0);
+        text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);
+    }
+    40% {
+        color: black;
+        text-shadow:
+        .25em 0 0 rgba(0,0,0,0),
+        .5em 0 0 rgba(0,0,0,0);
+    }
+    60% {
+        text-shadow:
+        .25em 0 0 black
+        .5em 0 0 white
+        }
+    80%, 100% {
+        text-shadow:
+        .25em 0 0 black,
+        .5em 0 0 black;
+        }
+    }

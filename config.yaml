@@ -1,0 +1,14 @@
+title: "Daniel Varab"
+theme: "hyde"
+
+
+params:
+  layoutReverse: false
+  description: "Natural Language Processing, Summarization & Data"
+  themeColor: "theme-base-0d"
+  
+
+Menus:
+  main:
+    - Name: "Twitter"
+      URL: "https://twitter.com/DanielVarab"

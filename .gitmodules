@@ -1,0 +1,15 @@
+[submodule "themes/reseearcher"]
+	path = themes/reseearcher
+	url = https://github.com/ankitsultana/researcher
+[submodule "themes/hugo-theme-cleanwhite-rsy"]
+	path = themes/hugo-theme-cleanwhite-rsy
+	url = git@github.com:youngkin/hugo-theme-cleanwhite-rsy.git
+[submodule "themes/terminal"]
+	path = themes/terminal
+	url = https://github.com/panr/hugo-theme-terminal.git
+[submodule "themes/hyde"]
+	path = themes/hyde
+	url = https://github.com/spf13/hyde
+[submodule "themes/paper"]
+	path = themes/paper
+	url = https://github.com/nanxiaobei/hugo-paper

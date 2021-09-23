@@ -26,7 +26,7 @@ I do research on multilingual text summarization in low-resource settings where 
 - (2015-2016) Frontend Developer, Heartbeats
 - (2014-2017) Full Stack Developer, International Association of Prosecutors
 
-## Reviewer Experience
+## Reviewing Experience
 - WNUT 2021
 - NoDaLiDa 2021
 - WNUT 2020

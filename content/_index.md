@@ -5,8 +5,9 @@ I do research on multilingual text summarization in low-resource settings where 
 
 
 ## Publications
-- *(EMNLP 2021) Under Review*
-- *(LREC 2020) DaNewsroom - A Large Scale Danish Summarization Dataset* 
+- *(EMNLP 2021) MassiveSumm: A very large-scale, very multilingual, news summarisation dataset*
+- *(LREC 2020) DaNewsroom - A Large Scale Danish Summarization Dataset*
+- *(NoDaLiDa 2020) The Danish gigaword project*
 - *(EMNLP 2018) When data permutations are pathological: the case of neural natural language inference*
 - *(NoDaLiDa 2019) UniParse: A universal graph-based parsing toolkit*
 
@@ -24,3 +25,8 @@ I do research on multilingual text summarization in low-resource settings where 
 - (2016-2018) Assistant Lecturer, Teaching Assistant, IT University of Copenhagen
 - (2015-2016) Frontend Developer, Heartbeats
 - (2014-2017) Full Stack Developer, International Association of Prosecutors
+
+## Reviewer Experience
+- WNUT 2021
+- NoDaLiDa 2021
+- WNUT 2020

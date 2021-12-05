@@ -1,7 +1,7 @@
 
 
 ## About Me
-I do research on multilingual text summarization in low-resource settings where transparency and data-efficiency is key. I am currently working on building datasets and quantifying the quality of data in an automatic fashion. I am an industrial Ph.D. at Novo Nordisk and am part of the [NLP North](https://nlpnorth.github.io/) research unit at the IT University of Copenhagen. I am supervised by [Natalie Schluter](https://natschluter.github.io/).
+I do research on multilingual text summarization in low-resource settings where transparency and data-efficiency is key. I am currently working on building datasets and quantifying the quality of data in an automatic fashion. I am an industrial Ph.D. at Novo Nordisk and am part of the [NLP North](https://nlpnorth.github.io/) research unit at the IT University of Copenhagen. I am supervised by [Christian Hardmeier](https://christianhardmeier.rax.ch).
 
 
 ## Publications

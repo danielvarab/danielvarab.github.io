@@ -1,10 +1,7 @@
 
 
 ## About Me
-Hi and welcome to my spot on the internet! I am an industrial Ph.D. at Novo Nordisk and am part of the Natural Language Processing research group, [NLP 
-North](https://nlpnorth.github.io/), at the IT University of Copenhagen (ITU). I am honored to be supervised by [Christian Hardmeier](https://christianhardmeier.rax.ch). My 
-research interests lie in the practical challenges of text summarization, such as aquiring data, building multi-and crosslingual systems, and exploring synergies between 
-extractive and abstractive system designs. I have in the past spent much time building datasets and have as of late shifted my focus towards system design.
+Hi and welcome to my spot on the internet! I am a 3rd year industrial Ph.D. at Novo Nordisk and am part of the Natural Language Processing research group, [NLP North](https://nlpnorth.github.io/), at the IT University of Copenhagen (ITU). I am honored to be supervised by [Christian Hardmeier](https://christianhardmeier.rax.ch). My research interests lie in the practical challenges of text summarization, such as acquiring data, building multi-and cross-lingual systems, and exploring synergies between extractive and abstractive system designs. I have in the past spent much time building datasets and have as of late shifted my focus toward system design.
 
 ## Publications
 - *(EMNLP 2022) Experimental Standards for Deep Learning Research: A Natural Language Processing Perspective*

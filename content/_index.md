@@ -1,10 +1,13 @@
 
 
 ## About Me
-I do research on multilingual text summarization in low-resource settings where transparency and data-efficiency is key. I am currently working on building datasets and quantifying the quality of data in an automatic fashion. I am an industrial Ph.D. at Novo Nordisk and am part of the [NLP North](https://nlpnorth.github.io/) research unit at the IT University of Copenhagen. I am supervised by [Christian Hardmeier](https://christianhardmeier.rax.ch).
-
+Hi and welcome to my spot on the internet! I am an industrial Ph.D. at Novo Nordisk and am part of the Natural Language Processing research group, [NLP 
+North](https://nlpnorth.github.io/), at the IT University of Copenhagen (ITU). I am honored to be supervised by [Christian Hardmeier](https://christianhardmeier.rax.ch). My 
+research interests lie in the practical challenges of text summarization, such as aquiring data, building multi-and crosslingual systems, and exploring synergies between 
+extractive and abstractive system designs. I have in the past spent much time building datasets and have as of late shifted my focus towards system design.
 
 ## Publications
+- *(EMNLP 2022) Experimental Standards for Deep Learning Research: A Natural Language Processing Perspective*
 - *(EMNLP 2021) MassiveSumm: A very large-scale, very multilingual, news summarisation dataset*
 - *(LREC 2020) DaNewsroom - A Large Scale Danish Summarization Dataset*
 - *(NoDaLiDa 2020) The Danish gigaword project*
@@ -27,6 +30,10 @@ I do research on multilingual text summarization in low-resource settings where 
 - (2014-2017) Full Stack Developer, International Association of Prosecutors
 
 ## Reviewing Experience
+- WNUT 2022
+- EMNLP 2022
+- ACL 2022
 - WNUT 2021
 - NoDaLiDa 2021
 - WNUT 2020
+

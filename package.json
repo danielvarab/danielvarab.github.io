@@ -1,8 +1,11 @@
 {
-  "name": "eleventy-test",
+  "name": "danielvarab.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +14,5 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"
-  },
-  "dependencies": {
-    "latex.css": "^1.9.0"
   }
 }

@@ -3,9 +3,9 @@ title: About Me
 layout: layout.html
 ---
 
-## About Me
+<!-- ## About Me
 
-**TODO**
+**TODO** -->
 
 <!-- Hi! I'm Daniel and I've spent most of my career working on processing text,  on NLP and am in particular interested in text generation models. During my Ph.D. (recently graduated - please reach out if you're working on something cool!). :) -->
 

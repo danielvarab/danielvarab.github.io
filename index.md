@@ -2,29 +2,26 @@
 title: About Me
 layout: layout.html
 ---
-
-<!-- ## About Me
-
-**TODO** -->
-
-<!-- Hi! I'm Daniel and I've spent most of my career working on processing text,  on NLP and am in particular interested in text generation models. During my Ph.D. (recently graduated - please reach out if you're working on something cool!). :) -->
+<!-- I'm a NLP researcher and have spent most of my career on processing text. Most recently I've had a deep dive into summarization ([thesis](https://en.itu.dk/-/media/EN/Research/PhD-Programme/PhD-defences/2023/PhD-Thesis-Temporary-Version-Daniel-Varab-pdf.pdf)). Subjects that  of text generation with a particular interest in, in-context learning, retrieval based generation, controllable generation, and probing when LLMs retrieve information from memory rather than context. I recently received my Ph.D. from the [IT University of Copenhagen](https://en.itu.dk/) under the supervision of [Christian Hardmeier](https://christianhardmeier.rax.ch/). -->
 
 ## News
 
 
 <!-- - **PINNED** - Looking for work! 👨‍💻 Reach out if you're working on something cool and need building/investigating LLMs and generative text systems. You'll find my contact details at the bottom of the page. -->
-- **05/06/2023** - Flying out to ACL 2023 🇨🇦 Reach out if you're in town!
-- **14/06/2023** - I am a doctor! 🎓 <span style="color:#FF851B">I'm looking for work. Reach out if you're working on something neat.</span>
+- **10/10/2023** - Giving a lecture on summarization at the IT University of Copenhagen.
+- **15/07/2023** - On parental leave for the remainder of the year. </br><span style="margin-left:10px; color:#FF851B">On the lookout for work in the new year. Give me a ping if you're working on something cool!</span> 
+- **05/07/2023** - Flying out to ACL 2023 🇨🇦 Reach out if you're in town!
+- **14/06/2023** - I am a doctor! 🎓
 - **01/06/2023** - We are hosting a [workshop](https://christianhardmeier.rax.ch/workshop/langtech-society-2023/) on language technology and society. Visit the link for more info!
 - **02/05/2023** - Our [paper](https://aclanthology.org/2023.acl-short.29/) on generative extractive summarization was accepted at ACL 2023!
 
 
 ## Resources
-- [GenX](https://github.com/danielvarab/GenX): A generative extractive summarization algorithm 
-- [MassiveSumm](https://github.com/danielvarab/massive-summ): A summarization dataset covering 92 languages and 35 scripts
-- [DaNewsroom](https://github.com/danielvarab/da-newsroom): A Danish Summarization dataset (>1 million samples)
+- [GenX](https://github.com/danielvarab/GenX): A generative extractive summarization algorithm .
+- [MassiveSumm](https://github.com/danielvarab/massive-summ): A summarization dataset covering 92 languages and 35 scripts.
+- [DaNewsroom](https://github.com/danielvarab/da-newsroom): A Danish Summarization dataset (>1 million samples).
 - [Danish Gigaword](https://gigaword.dk/): A billion-word corpus of Danish text, freely distributed with attribution.
-- [Uniparse](https://github.com/danielvarab/uniparse): A framework for developing reproducible graph-based dependency parsers
+- [Uniparse](https://github.com/danielvarab/uniparse): A framework for developing reproducible graph-based dependency parsers.
 
 ## Publications
 

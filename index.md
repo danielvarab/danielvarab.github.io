@@ -38,7 +38,7 @@ layout: layout.html
 <!-- </small> -->
 
 ## Resume
-- (2020-2023) Industrial Ph.D., Novo Nordisk & IT University of Copenhagen
+- (2020-2023) Industrial Researcher, Novo Nordisk
 - (2019) Research Assistant, IT University of Copenhagen
 - (2018-2019) Senior Machine Learning Engineer, Karnov Group
 - (2017-2018) Research Assistant, IT University of Copenhagen

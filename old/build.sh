@@ -1,1 +1,0 @@
-pandoc -s -o index.html index.md --css https://latex.now.sh/style.css

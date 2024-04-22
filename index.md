@@ -1,5 +1,6 @@
 ---
-title: About Me
+title: Daniel Varab
+subtitle: NLP Researcher
 layout: layout.html
 ---
 <!-- I'm a NLP researcher and have spent most of my career on processing text. Most recently I've had a deep dive into summarization ([thesis](https://en.itu.dk/-/media/EN/Research/PhD-Programme/PhD-defences/2023/PhD-Thesis-Temporary-Version-Daniel-Varab-pdf.pdf)). Subjects that  of text generation with a particular interest in, in-context learning, retrieval based generation, controllable generation, and probing when LLMs retrieve information from memory rather than context. I recently received my Ph.D. from the [IT University of Copenhagen](https://en.itu.dk/) under the supervision of [Christian Hardmeier](https://christianhardmeier.rax.ch/). -->
@@ -8,19 +9,20 @@ layout: layout.html
 
 
 <!-- - **PINNED** - Looking for work! 👨‍💻 Reach out if you're working on something cool and need building/investigating LLMs and generative text systems. You'll find my contact details at the bottom of the page. -->
-- **10/10/2023** - Giving a lecture on summarization at the IT University of Copenhagen.
-- **15/07/2023** - On parental leave for the remainder of the year. </br><span style="margin-left:10px; color:#FF851B">On the lookout for work in the new year. Give me a ping if you're working on something cool!</span> 
+- **15/01/2024** - 🚨Joined [DFKI](https://www.dfki.de/en/web) Berlin 🇩🇪 to work on human-centered LLMs.
+- **10/10/2023** - Giving a lecture on summarization at [ITU](https://en.itu.dk/).
 - **05/07/2023** - Flying out to ACL 2023 🇨🇦 Reach out if you're in town!
-- **14/06/2023** - I am a doctor! 🎓
-- **01/06/2023** - We are hosting a [workshop](https://christianhardmeier.rax.ch/workshop/langtech-society-2023/) on language technology and society. Visit the link for more info!
-- **02/05/2023** - Our [paper](https://aclanthology.org/2023.acl-short.29/) on generative extractive summarization was accepted at ACL 2023!
+- **14/06/2023** - I am a doctor! 🎓🎓🎓
+- **01/06/2023** - Hosting a [workshop](https://christianhardmeier.rax.ch/workshop/langtech-society-2023/) on language technology and society.
+- **02/05/2023** - [Paper on extractive summarization](https://aclanthology.org/2023.acl-short.29/) accepted at ACL 2023!
+- **02/05/2023** - New personal website!
 
 
 ## Resources
-- [GenX](https://github.com/danielvarab/GenX): A generative extractive summarization algorithm .
+- [GenX](https://github.com/danielvarab/GenX): A extractive summarization algorithm in the age of generative LLMs.
 - [MassiveSumm](https://github.com/danielvarab/massive-summ): A summarization dataset covering 92 languages and 35 scripts.
-- [DaNewsroom](https://github.com/danielvarab/da-newsroom): A Danish Summarization dataset (>1 million samples).
-- [Danish Gigaword](https://gigaword.dk/): A billion-word corpus of Danish text, freely distributed with attribution.
+- [DaNewsroom](https://github.com/danielvarab/da-newsroom): A Danish summarization dataset (>1 million samples).
+- [Danish Gigaword](https://gigaword.dk/): A freely distributed billion-word corpus of Danish text.
 - [Uniparse](https://github.com/danielvarab/uniparse): A framework for developing reproducible graph-based dependency parsers.
 
 ## Publications
@@ -38,6 +40,7 @@ layout: layout.html
 <!-- </small> -->
 
 ## Resume
+- (2020-2023) Research, German Research Center for Artificial Intelligence (DFKI)
 - (2020-2023) Industrial Researcher, Novo Nordisk
 - (2019) Research Assistant, IT University of Copenhagen
 - (2018-2019) Senior Machine Learning Engineer, Karnov Group

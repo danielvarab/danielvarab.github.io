@@ -23,7 +23,7 @@ layout: layout.html
 - [MassiveSumm](https://github.com/danielvarab/massive-summ): A summarization dataset covering 92 languages and 35 scripts.
 - [DaNewsroom](https://github.com/danielvarab/da-newsroom): A Danish summarization dataset (>1 million samples).
 - [Danish Gigaword](https://gigaword.dk/): A freely distributed billion-word corpus of Danish text.
-- [Uniparse](https://github.com/danielvarab/uniparse): A framework for developing reproducible graph-based dependency parsers.
+- [Uniparse](https://github.com/danielvarab/uniparse): A library to develop reproducible graph-based dependency parsers.
 
 ## Publications
 

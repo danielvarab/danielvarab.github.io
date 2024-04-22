@@ -17,6 +17,16 @@ layout: layout.html
 - **02/05/2023** - [Paper on extractive summarization](https://aclanthology.org/2023.acl-short.29/) accepted at ACL 2023!
 - **02/05/2023** - New personal website!
 
+## Resume
+- (2020-2023) **Researcher**, German Research Center for Artificial Intelligence
+- (2020-2023) **Industrial Researcher and Ph.D.**, Novo Nordisk
+- (2019) **Research Assistant**, IT University of Copenhagen
+- (2018-2019) **Senior Machine Learning Engineer**, Karnov Group
+- (2017-2018) **Research Assistant**, IT University of Copenhagen
+- (2017-2018) **Assistant Lecturer**, IT University of Copenhagen
+- (2016-2017) **Teaching Assistant**, IT University of Copenhagen
+- (2014-2017) **Full Stack Developer**, International Association of Prosecutors
+- (2015-2016) **Frontend Developer**, Heartbeats
 
 ## Resources
 - [GenX](https://github.com/danielvarab/GenX): A extractive summarization algorithm in the age of generative LLMs.
@@ -27,7 +37,7 @@ layout: layout.html
 
 ## Publications
 
-<!-- <small> -->
+<small>
 
 - **Daniel Varab** and Yumo Xu. 2023. [Abstractive Summarizers are Excellent Extractive Summarizers](https://aclanthology.org/2023.acl-short.29/). In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers), pages 330–339, Toronto, Canada. Association for Computational Linguistics.
 - Dennis Ulmer, Elisa Bassignana, Max Müller-Eberstein, **Daniel Varab**, Mike Zhang, Rob van der Goot, Christian Hardmeier, and Barbara Plank. 2022. [Experimental Standards for Deep Learning in Natural Language Processing Research](https://aclanthology.org/2022.findings-emnlp.196/). In Findings of the Association for Computational Linguistics: EMNLP 2022, pages 2673–2692, Abu Dhabi, United Arab Emirates. Association for Computational Linguistics.
@@ -37,27 +47,17 @@ layout: layout.html
 - **Daniel Varab** and Natalie Schluter. 2019. [UniParse: A universal graph-based parsing toolkit](https://aclanthology.org/W19-6149/). In Proceedings of the 22nd Nordic Conference on Computational Linguistics, pages 406–410, Turku, Finland. Linköping University Electronic Press.
 - Natalie Schluter and **Daniel Varab**. 2018. [When data permutations are pathological: the case of neural natural language inference](https://aclanthology.org/D18-1534/). In Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing, pages 4935–4939, Brussels, Belgium. Association for Computational Linguistics.
 
-<!-- </small> -->
-
-## Resume
-- (2020-2023) Research, German Research Center for Artificial Intelligence (DFKI)
-- (2020-2023) Industrial Researcher, Novo Nordisk
-- (2019) Research Assistant, IT University of Copenhagen
-- (2018-2019) Senior Machine Learning Engineer, Karnov Group
-- (2017-2018) Research Assistant, IT University of Copenhagen
-- (2017-2018) Assistant Lecturer, IT University of Copenhagen
-- (2016-2017) Teaching Assistant, IT University of Copenhagen
-- (2015-2016) Frontend Developer, Heartbeats
-- (2014-2017) Full Stack Developer, International Association of Prosecutors
+</small>
 
 ## Education
-- (2020-2023) Ph.D. in Natural Language Processing, IT University of Copenhagen
+- (2020-2023) Ph.D. (NLP), IT University of Copenhagen
 - (2014-2017) IT University of Copenhagen, MSc in IT
 - (2013) École pour l’informatique et les techniques avancées
 - (2011-2014) IT University of Copenhagen, BSc in IT
 
 
 ## Reviewing
+- COLM 2024
 - ACL {2022, 2023}
 - EMNLP {2021,2022,2023}
 - WNUT {2020, 2021, 2022}

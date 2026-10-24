@@ -7,13 +7,12 @@ banner_subtitle: cv & miscellany
 ## XP
 
 - (2025-) **Senior MLE**, Corti AI
-- (2020-2025) **Researcher**, German Research Center for Artificial Intelligence
+- (2020-2025) **Postdoc**, German Research Center for Artificial Intelligence
 - (2020-2023) **Industrial Researcher and Ph.D.**, Novo Nordisk
 - (2019) **Research Assistant**, IT University of Copenhagen
 - (2018-2019) **Senior Machine Learning Engineer**, Karnov Group
 - (2017-2018) **Research Assistant**, IT University of Copenhagen
 - (2017-2018) **Assistant Lecturer**, IT University of Copenhagen
-- (2016-2017) **Teaching Assistant**, IT University of Copenhagen
 - (2014-2017) **Full Stack Developer**, International Association of Prosecutors
 - (2015-2016) **Frontend Developer**, Heartbeats
 

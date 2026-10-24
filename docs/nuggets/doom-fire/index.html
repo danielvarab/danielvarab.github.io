@@ -47,14 +47,24 @@
 \mathrm{pixel}(y{+}1,\ x{+}\delta) - d &amp; \text{otherwise}
 \end{cases}
 $$</p>
-<p>where $\delta$ decides how far the flame drifts sideways and $d$ how much it cools — both sampled from <code>{0,1,2}</code>, independently for every pixel on every frame. Note, in my implementation the coordinates are swapped, and coordinate <code>(0,0)</code> is in the top right corner, and <code>(36,36)</code> is the bottom right corner. Thus, <code>y = 36</code> refers to the bottom row.</p>
+<p>where $\delta$ decides how far the flame drifts sideways and $d$ how much it cools — both sampled from $[0,2]$, independently for every pixel on every frame. Note, in my implementation the coordinates are swapped, and coordinate <code>(0,0)</code> is in the top right corner, and <code>(36,36)</code> is the bottom right corner. Thus, <code>y = 36</code> refers to the bottom row.</p>
 <iframe class="demo-frame" src="/assets/demos/doomfire/index.html" title="Doom fire demo"></iframe>
-<p>Voila! I think it turned out pretty cool. Check out the source code if you're curious: <a href="/assets/demos/doomfire/main.js">code</a></p>
+<p>Voila! It turned out pretty cool. Check out the source code if you're curious: <a href="/assets/demos/doomfire/main.js">code</a></p>
 
     </main>
 
     <footer class="site-footer">
         <ul class="socials">
+            <li>
+                <a href="https://github.com/danielvarab">
+                    <span>github</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/danielvarab">
+                    <span>linkedin</span>
+                </a>
+            </li>
             <li>
                 <a href="https://x.com/danielvarab">
                     <span>@danielvarab</span>

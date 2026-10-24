@@ -21,8 +21,8 @@ $$
     \end{cases}
 $$
 
-where $\delta$ decides how far the flame drifts sideways and $d$ how much it cools — both sampled from `{0,1,2}`, independently for every pixel on every frame. Note, in my implementation the coordinates are swapped, and coordinate `(0,0)` is in the top right corner, and `(36,36)` is the bottom right corner. Thus, `y = 36` refers to the bottom row. 
+where $\delta$ decides how far the flame drifts sideways and $d$ how much it cools — both sampled from $[0,2]$, independently for every pixel on every frame. Note, in my implementation the coordinates are swapped, and coordinate `(0,0)` is in the top right corner, and `(36,36)` is the bottom right corner. Thus, `y = 36` refers to the bottom row. 
 
 <iframe class="demo-frame" src="/assets/demos/doomfire/index.html" title="Doom fire demo"></iframe>
 
-Voila! I think it turned out pretty cool. Check out the source code if you're curious: [code](/assets/demos/doomfire/main.js)
+Voila! It turned out pretty cool. Check out the source code if you're curious: [code](/assets/demos/doomfire/main.js)

@@ -104,6 +104,11 @@ a:hover { text-decoration-color: var(--accent); }
     max-width: 44rem;
     margin: 2.5rem auto;
     padding: 0 1.25rem;
+    hyphens: auto;
+}
+.scramble .dud {
+    color: var(--accent);
+    text-shadow: 0 0 .5rem rgba(0, 179, 255, .4);
 }
 .content h1, .content h2, .content h3 {
     color: #fff;

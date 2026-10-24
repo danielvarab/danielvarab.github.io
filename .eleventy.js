@@ -1,12 +1,20 @@
 module.exports = function (eleventyConfig) {
-    eleventyConfig.addPassthroughCopy("bundle.css");
-    eleventyConfig.addPassthroughCopy("jquery.hypher.js");
-    eleventyConfig.addPassthroughCopy("en-us.js");
+    // static files copied as-is (src/assets → docs/assets)
+    eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
 
-    // eleventyConfig("https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js")
+    // "2026-10-24" — used on the blog index and post pages
+    eleventyConfig.addFilter("isoDate", (value) => {
+        const d = value instanceof Date ? value : new Date(value);
+        return Number.isNaN(d.getTime()) ? "" : d.toISOString().slice(0, 10);
+    });
+
     return {
         dir: {
-            output: 'docs'
-        }
-    }
+            input: "src",
+            includes: "_includes",
+            output: "docs"
+        },
+        markdownTemplateEngine: "njk",
+        htmlTemplateEngine: "njk"
+    };
 };

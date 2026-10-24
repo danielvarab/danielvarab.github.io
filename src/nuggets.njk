@@ -1,0 +1,18 @@
+---
+layout: base.njk
+title: Nuggets
+banner_subtitle: tiny posts & experiments
+eleventyImport:
+    collections: ["nuggets"]
+---
+<p>Little nuggets — demos, notes, and experiments.</p>
+
+{% for post in collections.nuggets | reverse %}
+<a class="post-card" href="{{ post.url }}">
+    <span class="post-date">{{ post.date | isoDate }}</span>
+    <h2>{{ post.data.title }}</h2>
+    {% if post.data.description %}<span class="excerpt">{{ post.data.description }}</span>{% endif %}
+</a>
+{% else %}
+<p>Nothing here yet.</p>
+{% endfor %}

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Doom fire — Daniel Varab</title>
+    <meta name="description" content="The classic Doom fire effect">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><rect width='8' height='8'/><rect x='2' y='2' width='4' height='4' fill='%2300b3ff'/></svg>">
+    <link rel="stylesheet" href="/assets/style.css">
+    
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    
+</head>
+<body>
+
+    <header class="dither-banner"
+            data-front="#00b3ff"
+            data-back="#000000"
+            data-size="3"
+            data-speed="1">
+        <div class="title">
+            <h1>Doom fire</h1>
+            
+            
+        </div>
+    </header>
+
+    <nav class="nav" aria-label="Main">
+        <a href="/">home</a>
+        <a href="/whoami/">whoami</a>
+        <a href="/nuggets/">nuggets</a>
+    </nav>
+
+    <main class="content">
+        <p class="post-date">2026-10-24</p>
+        <p>I was doom scrolling the other day and my algorithm turned up with the old doom fire and I thought I'd give it a go and see if I could replicate it using plain javascript. Turned out it was fairly straight forward. The trick was to consider it generatively (in the old computer science meaning of the word). Each pixel is determined by the colour of the pixel below it. We'll color the bottom row white for &quot;hot&quot; and construct a colour palette from &quot;hot&quot; -&gt; &quot;cold&quot;, which roughly is a gradient from white -&gt; red -&gt; yellow -&gt; black.</p>
+<p>The task is then really just a matter of defining the base case (the hot white bottom row), and adding some randomness to how colors propogate upwards. It can rougly be defined by:</p>
+<p>$$
+\mathrm{pixel}(y, x) =
+\begin{cases}
+\mathrm{white} &amp; \text{if } y = 36 \\
+\mathrm{pixel}(y{+}1,\ x{+}\delta) - d &amp; \text{otherwise}
+\end{cases}
+$$</p>
+<p>where $\delta$ decides how far the flame drifts sideways and $d$ how much it cools — both sampled from <code>{0,1,2}</code>, independently for every pixel on every frame. Note, in my implementation the coordinates are swapped, and coordinate <code>(0,0)</code> is in the top right corner, and <code>(36,36)</code> is the bottom right corner. Thus, <code>y = 36</code> refers to the bottom row.</p>
+<iframe class="demo-frame" src="/assets/demos/doomfire/index.html" title="Doom fire demo"></iframe>
+<p>Voila! I think it turned out pretty cool. Check out the source code if you're curious: <a href="/assets/demos/doomfire/main.js">code</a></p>
+
+    </main>
+
+    <footer class="site-footer">
+        <ul class="socials">
+            <li>
+                <a href="https://x.com/danielvarab">
+                    <span>@danielvarab</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://scholar.google.com/citations?hl=en&amp;user=J-19HNYAAAAJ">
+                    <span>scholar</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/assets/dither-banner.js" defer></script>
+</body>
+</html>

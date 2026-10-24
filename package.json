@@ -1,16 +1,14 @@
 {
   "name": "danielvarab.github.io",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
+  "version": "2.0.0",
+  "private": true,
+  "description": "Daniel Varab's personal website, built with Eleventy.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "eleventy",
+    "serve": "eleventy --serve"
   },
   "keywords": [],
-  "author": "",
+  "author": "Daniel Varab",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1"

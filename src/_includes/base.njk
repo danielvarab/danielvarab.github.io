@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% set page_title = title or "Daniel Varab" %}{% if page_title != "Daniel Varab" %}{{ page_title }} — Daniel Varab{% else %}Daniel Varab — Text Generation &amp; Stuff{% endif %}</title>
+    <meta name="description" content="{{ description or 'Daniel Varab — NLP researcher working on text generation, summarization, and multilingual NLP.' }}">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'><rect width='8' height='8'/><rect x='2' y='2' width='4' height='4' fill='%2300b3ff'/></svg>">
+    <link rel="stylesheet" href="/assets/style.css">
+    {% if math %}
+    <script>
+        window.MathJax = {
+            tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+        };
+    </script>
+    <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    {% endif %}
+</head>
+<body>
+
+    <header class="dither-banner"
+            data-front="{{ banner_color or '#00b3ff' }}"
+            data-back="#000000"
+            data-size="3"
+            data-speed="1">
+        <div class="title">
+            <h1>{{ banner_title or title or "Daniel Varab" }}</h1>
+            {% set sub = banner_subtitle or subtitle %}
+            {% if sub %}<p>{{ sub }}</p>{% endif %}
+        </div>
+    </header>
+
+    <nav class="nav" aria-label="Main">
+        <a href="/">home</a>
+        <a href="/whoami/">whoami</a>
+        <a href="/nuggets/">nuggets</a>
+    </nav>
+
+    <main class="content">
+        {% if show_date %}<p class="post-date">{{ date | isoDate }}</p>{% endif %}
+        {{ content | safe }}
+    </main>
+
+    <footer class="site-footer">
+        <ul class="socials">
+            <li>
+                <a href="https://x.com/danielvarab">
+                    <span>@danielvarab</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://scholar.google.com/citations?hl=en&amp;user=J-19HNYAAAAJ">
+                    <span>scholar</span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="/assets/dither-banner.js" defer></script>
+</body>
+</html>
